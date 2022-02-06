@@ -508,7 +508,7 @@ async def _(event):
 async def _(event):
     await edit_or_reply(
         event,
-        "`Dadah Semuanya...`          \n　　　　　|"
+        "`Aku bundir karna kamu jelek...`          \n　　　　　|"
         "\n　　　　　| \n"
         "　　　　　| \n"
         "　　　　　| \n"
