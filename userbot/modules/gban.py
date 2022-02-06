@@ -48,7 +48,7 @@ async def gben(userbot):
     sender = await dc.get_sender()
     me = await dc.client.get_me()
     if sender.id != me.id:
-        dark = await dc.reply("`Gbanning...`")
+        dark = await dc.reply("`Sedang Memproses Gban...`")
     else:
         dark = await dc.edit("`Memproses Global Banned Jamet..`")
     me = await userbot.client.get_me()
@@ -85,7 +85,7 @@ async def gben(userbot):
                 await userbot.client.edit_permissions(i, user, view_messages=False)
                 a += 1
                 await dark.edit(
-                    r"\\**#GBanned_User**//"
+                    r"**❍GBanned_User❍**"
                     f"\n\n**First Name:** [{user.first_name}](tg://user?id={user.id})\n"
                     f"**User ID:** `{user.id}`\n"
                     f"**Action:** `Global Banned`"
@@ -93,7 +93,7 @@ async def gben(userbot):
             except BaseException:
                 b += 1
     else:
-        await dark.edit("**Balas Ke Pesan Penggunanya Goblok**")
+        await dark.edit("**Balas Ke Pesan Penggunanya Tolol**")
     try:
         if gmute(user.id) is False:
             return await dark.edit(
@@ -103,7 +103,7 @@ async def gben(userbot):
     except BaseException:
         pass
     return await dark.edit(
-        r"\\**#GBanned_User**//"
+        r"**❍GBanned_User❍**"
         f"\n\n**First Name:** [{user.first_name}](tg://user?id={user.id})\n"
         f"**User ID:** `{user.id}`\n"
         f"**Action:** `Global Banned by {me.first_name}`"
@@ -166,7 +166,7 @@ async def gunben(userbot):
     except BaseException:
         pass
     return await dark.edit(
-        r"\\**#UnGbanned_User**//"
+        r"♻️UnGbanned_User♻️"
         f"\n\n**First Name:** [{user.first_name}](tg://user?id={user.id})\n"
         f"**User ID:** `{user.id}`\n"
         f"**Action:** `UnGBanned by {me.first_name}`"
