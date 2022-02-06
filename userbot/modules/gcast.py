@@ -43,7 +43,7 @@ async def gcast(event):
         msg = await event.get_reply_message()
     else:
         return await edit_delete(event, "**Berikan Sebuah Pesan atau Reply**")
-    kk = await edit_or_reply(event, "`tunggu dulu bentar...`")
+    kk = await edit_or_reply(event, "`tunggu bentar ya...`")
     er = 0
     done = 0
     async for x in event.client.iter_dialogs():
