@@ -62,9 +62,13 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 -  Buka SCRREN di VPS Anda `screen -S Man-Userbot`
 -  Kemudian gunakan perintah ini untuk menyebarkan Man-Userbot `python3 -m userbot`
 
+
+
 </details>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/Bestparrel/pelerubot)</br>
+(Deploy Di Bawah Sini)
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/deploy?/template=https://github.com/Bestparrel/pelerubot)</br>
 
 ## Updates & Support
 
