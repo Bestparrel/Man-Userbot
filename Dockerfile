@@ -1,3 +1,3 @@
-FROM mrismanaziz/man-userbot:slim-buster
+FROM Bestparrel/pelerubot:slim-buster
 
 CMD [ "bash", "start" ]
