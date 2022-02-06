@@ -28,7 +28,7 @@ async def _(event):
         "`\n┻┳|￣  )`"
         "`\n┳ﾐ(￣ ／`"
         "`\n┻┳T￣|`"
-        "\n**Punten**",
+        "\n**Ciluk Ba**",
     )
 
 
@@ -43,7 +43,7 @@ async def _(event):
         "`\n┻┳|￣  )`"
         "`\n┳ﾐ(￣ ／`"
         "`\n┻┳T￣|`"
-        "\n**Masih Gua Pantau**",
+        "\n**Masih Ku Pantau**",
     )
 
 
@@ -193,6 +193,29 @@ async def _(event):
     )
 
 
+@man_cmd(pattern="monyet(?: |$)(.*)")
+async def _(event):
+    await edit_or_reply(
+        event,
+        "    ⠀⠀╱▔▔▔▔▔╲⠀⠀⠀HM⠀HM\n"
+        "  ⠀╱⠀⠀╱▔╲╲╲▏⠀⠀⠀HMMM\n"
+        "  ╱⠀⠀╱━╱▔▔▔▔▔╲━╮\n"⠀⠀
+        " ▏⠀▕┃▕╱▔╲╱▔╲▕╮┃\n"⠀⠀
+        " ▏⠀▕╰━▏▊▕▕▋▕▕━╯\n"⠀⠀
+        " ╲⠀⠀╲╱▔╭╮▔▔┳╲╲\n"⠀
+        " ⠀╲⠀⠀▏╭━━━━╯▕▕\n"⠀⠀⠀
+        " ⠀⠀╲⠀╲▂▂▂▂▂▂╱╱\n"⠀⠀⠀
+⠀       " ⠀⠀⠀▏⠀⠀⠀⠀⠀⠀⠀⠀⠀╲\n"
+       ⠀"⠀⠀⠀▏⠀⠀⠀⠀⠀⠀▕╲⠀⠀╲\n"
+       ⠀"╱▔╲▏⠀⠀⠀⠀⠀⠀▕╱▔╲▕\n"
+       ⠀"▏ ⠀⠀⠀╰⠀⠀⠀⠀╯⠀⠀⠀▕▕\n"
+       ⠀"╲⠀⠀⠀╲⠀⠀⠀⠀╱⠀ ⠀╱⠀╲\\▏\n"
+       ⠀"⠀╲⠀⠀▕▔▔▔▔▏⠀⠀╱╲╲╲\▏\n"
+        "⠀╱▔⠀⠀▕⠀⠀⠀⠀▏⠀⠀▔╲▔▔\n"
+       ⠀"╲▂▂▂╱⠀⠀⠀⠀╲▂▂▂╱\n"⠀ 
+    )
+
+
 CMD_HELP.update(
     {
         "arts": f"**Plugin : **`arts`\
@@ -210,6 +233,8 @@ CMD_HELP.update(
         \n  •  **Function : **arts si jhonson.\
         \n\n  •  **Syntax :** `{cmd}sthink`\
         \n  •  **Function : **arts berfikir\
+        \n\n  •  **Syntax :** `{cmd}monyet`\
+        \n  •  **Function : **arts monyet mikir\
         \n\n  •  **Syntax :** `{cmd}punten` ; `{cmd}pantau`\
         \n  •  **Function : **Arts Beruang kek lagi mantau.\
         \n\n  •  **Syntax :** `{cmd}sadboy`\
