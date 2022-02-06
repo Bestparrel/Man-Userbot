@@ -21,13 +21,13 @@ from userbot.utils import edit_delete, edit_or_reply
 
 DEF_UNAPPROVED_MSG = (
     "╔════════════════════╗\n"
-    "     ⛑ 𝗔𝗧𝗧𝗘𝗡𝗧𝗜𝗢𝗡 𝗣𝗟𝗘𝗔𝗦𝗘 ⛑\n"
+    "     𝙋𝙀𝙍𝙄𝙉𝙂𝘼𝙏𝘼𝙉 𝘽𝙐𝘼𝙏 𝘼𝙉𝘿𝘼\n"
     "╚════════════════════╝\n"
-    "• Saya belum menyetujui anda untuk PM.\n"
-    "• Tunggu sampai saya menyetujui PM anda.\n"
+    "• Saya belum menyetujui anda untuk Chat.\n"
+    "• Tunggu sampai saya menyetujui Chat anda.\n"
     "• Jangan Spam Chat atau anda akan otomatis diblokir.\n"
     "╔════════════════════╗\n"
-    "    𝗣𝗲𝘀𝗮𝗻 𝗢𝘁𝗼𝗺𝗮𝘁𝗶𝘀 𝗕𝘆 -𝗨𝘀𝗲𝗿𝗕𝗼𝘁\n"
+    "  𝙋𝙚𝙨𝙖𝙣 𝙤𝙩𝙤𝙢𝙖𝙩𝙞𝙨 𝙗𝙮_𝙐𝙨𝙚𝙧𝘽𝙤𝙩𝙋𝙖𝙧\n"
     "╚════════════════════╝\n"
 )
 
@@ -157,7 +157,7 @@ async def auto_accept(event):
                 if is_approved(event.chat_id) and BOTLOG_CHATID:
                     await event.client.send_message(
                         BOTLOG_CHATID,
-                        "**#AUTO_APPROVED**\n"
+                        "**📌 DiSetujuOtomatis 📌**\n"
                         + "👤 **User:** "
                         + f"[{chat.first_name}](tg://user?id={chat.id})",
                     )
